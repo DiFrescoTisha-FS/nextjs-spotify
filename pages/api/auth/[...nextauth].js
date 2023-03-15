@@ -1,5 +1,5 @@
 import NextAuth from 'next-auth'
-import Providers from 'nex-auth/providers'
+import Providers from 'next-auth/react'
 
 export default NextAuth({
     providers: [
