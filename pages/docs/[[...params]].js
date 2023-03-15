@@ -12,8 +12,7 @@ function Doc() {
             </h1>
         )
     } else if (params.length === 1) {
-        return
-            <h1>Viewing docs for feature {params[0]}</h1>        
+        return <h1>Viewing docs for feature {params[0]}</h1>        
     }
     return (
         <h1>Docs Home Page</h1>
