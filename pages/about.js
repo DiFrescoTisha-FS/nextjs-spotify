@@ -1,5 +1,5 @@
 function About() {
-    return <h1>About</h1>
+    return <button className='btn btn-primary'>Primary</button>
 }
 
 export default About
