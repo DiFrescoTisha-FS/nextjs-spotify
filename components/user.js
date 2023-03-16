@@ -1,16 +1,10 @@
-import User from './user';
-
-function UserList({ users }) {
+function User({ user }) {
     return (
         <>
-            <h1>List of users</h1>
-            {users.map((user) => {
-                return (
-                    <div key={user.id}>
-                        <User user={user} />
-                    </div>
-                )
-            })}
+            <p>{user.name}</p>
+            <p>{user.email}</p>
         </>
     )
 }
+
+export default User
